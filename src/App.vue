@@ -1,16 +1,19 @@
 <template>
   <div id="app">
     <MainHeader/>
+    <MyJumbotron/>
   </div>
 </template>
 
 <script>
 import MainHeader from './components/MainHeader.vue'
+import MyJumbotron from './components/MyJumbotron.vue'
 
 export default {
   name: 'App',
   components: {
-    MainHeader
+    MainHeader,
+    MyJumbotron
   }
 }
 </script>

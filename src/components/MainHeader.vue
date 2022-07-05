@@ -9,7 +9,7 @@
 export default {
   name: 'MainHeader',
   props: {
-    variable1: String
+    
   }
 }
 </script>
